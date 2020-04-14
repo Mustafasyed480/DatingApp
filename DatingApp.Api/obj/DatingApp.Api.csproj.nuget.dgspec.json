@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\syedm\\Dating App\\DatingApp.Api\\DatingApp.Api.csproj": {}
+    "C:\\Users\\syedm\\DatingApp\\DatingApp.Api\\DatingApp.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\syedm\\Dating App\\DatingApp.Api\\DatingApp.Api.csproj": {
+    "C:\\Users\\syedm\\DatingApp\\DatingApp.Api\\DatingApp.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\syedm\\Dating App\\DatingApp.Api\\DatingApp.Api.csproj",
+        "projectUniqueName": "C:\\Users\\syedm\\DatingApp\\DatingApp.Api\\DatingApp.Api.csproj",
         "projectName": "DatingApp.Api",
-        "projectPath": "C:\\Users\\syedm\\Dating App\\DatingApp.Api\\DatingApp.Api.csproj",
+        "projectPath": "C:\\Users\\syedm\\DatingApp\\DatingApp.Api\\DatingApp.Api.csproj",
         "packagesPath": "C:\\Users\\syedm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\syedm\\Dating App\\DatingApp.Api\\obj\\",
+        "outputPath": "C:\\Users\\syedm\\DatingApp\\DatingApp.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
