@@ -52,7 +52,19 @@ namespace DatingApp.Api
             
            else
            {
+              app.UseExceptionHandler(builder => {
+                  builder.Run(async context =>
+                  {
+                      context.Response.StatusCodes = (int)HttpStatusCode.InternalServerError;
 
+                    var error = context.Features.Get<IExceptionHandlerFeature>();
+                    if (error != null)
+                    {
+                        context.Response.AddApplicationError(error.Error.Message);
+                        await context.Response.Writeasync(error.Error.Message);
+                    }
+                  });
+              });
             //app.UseHttpsRedirection();
            }
            app.UseCors(x=> x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
